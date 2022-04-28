@@ -33,9 +33,44 @@ body {
 }
 
 .pane__image {
-  max-width: 100%;
+  width: 100%;
 }
 
-img {
-  max-width: 80%;
+.content {
+  margin: 4.5% 3%; 
+  text-align: center;
+}
+
+.content__figure {
+  /* width: 100%; */
+}
+
+.content__figure__image {
+  width: 100%;
+  border: 3vw solid var(--pane);
+}
+
+.content__fig-title {
+  margin: 40rem 0;
+  font-size: 60rem;
+  font-weight: 500;
+}
+
+.content__fig-cap {
+  margin-bottom: 80rem;
+  line-height: 1.2;
+  font-size: 22rem;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+.content__fig-cap--last {
+  margin-bottom: 40rem;
+}
+
+
+.content__description-image {
+  width: 60vw;
 }
