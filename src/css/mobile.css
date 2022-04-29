@@ -85,3 +85,35 @@ body {
   background-size: 222% ;
   background-position: 23% 36%;
 }
+
+.content__article {
+  margin: 4.5% 3.5%;
+}
+
+.content__article-title {
+  margin: 80rem 0;
+  font-size: 115rem;
+  font-weight: 500;
+}
+
+.content__text {
+  margin-bottom: 60rem;
+  line-height: 1.2;
+  font-size: 22rem;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+}
+
+.content__text--bold {
+  font-weight: bold;
+}
+
+.content__text--em {
+  font-style: italic;
+}
+
+.content__text:last-child {
+  margin-bottom: 100rem;
+}
