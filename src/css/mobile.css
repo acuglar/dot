@@ -115,5 +115,18 @@ body {
 }
 
 .content__text:last-child {
-  margin-bottom: 100rem;
+  margin-bottom: 120rem;
+}
+
+.footer {
+  position: relative;
+  width: 66%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer__text {
+  margin: 140rem 0;
+  font-size: 80rem;
+  font-weight: 500;
 }
