@@ -37,12 +37,11 @@ body {
 }
 
 .content {
-  margin: 4.5% 3%; 
   text-align: center;
 }
 
 .content__figure {
-  /* width: 100%; */
+  margin: 4.5% 3%;
 }
 
 .content__figure__image {
@@ -70,7 +69,19 @@ body {
   margin-bottom: 40rem;
 }
 
+.content__description {
+  background-color: var(--pane);
+  padding: 1px;
+}
 
-.content__description-image {
-  width: 60vw;
+.content__description-figure {
+  width: 96vw;
+  height: 96vw;
+  margin: 2.5vh auto;
+  border: 3vw solid var(--main);
+  border-radius: 48vw;
+  background-image: url('../image/dot-img.jpeg');
+  background-repeat: no-repeat;
+  background-size: 222% ;
+  background-position: 23% 36%;
 }
