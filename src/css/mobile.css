@@ -1,7 +1,7 @@
 :root {
   --main: #434343;
   --pane: #707070;
-  --font-title: #4d6128;
+  --font-title: #81866A;
   --font-subtitle:#213800;
   --font-body: #fff;
 }
@@ -129,4 +129,38 @@ body {
   margin: 140rem 0;
   font-size: 80rem;
   font-weight: 500;
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    width: 100vw;
+    max-width: 100%;
+    background-color: green;
+    color: var(--font-body);
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  }
+
+  .pane__title {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .pane__title-main {
+    margin: 24rem 0 12rem 0;
+    font-size: 37rem;
+    font-weight: 600;
+    color: var(--font-title);
+  }
+  
+  .pane__title-sub {
+    margin: 12rem 0;
+    font-size: 14rem;
+    font-weight: 500;
+    color: var(--font-subtitle);
+  }
+  
+  .pane__image {
+    width: 100%;
+  }
 }
